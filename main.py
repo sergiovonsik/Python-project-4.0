@@ -9,7 +9,7 @@ def result(x):
     print('---------')
 
 
-# def to find where to draw "X"
+# def to find where to put "X"
 
 def find_index():
     global index
@@ -105,7 +105,7 @@ game = '_________'
 game_status = "in process"
 
 # -----GAME CORE--------
-
+print('Enter de coordinates where you want to get "X",\n Example:"1 3"')
 result(game)
 while game_status == "in process":
     index = find_index()
